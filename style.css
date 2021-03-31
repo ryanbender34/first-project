@@ -1,0 +1,363 @@
+.page {
+  min-width: 1100px;
+  /* we don't know how to make mobile versions of websites yet, */
+  /* so here we've set a minimum page width */
+  max-width: 1600px;
+  /* here we've set a maximum page width */
+  margin: 0 auto;
+  /* this ensures that all content is centered on screens wider than 1600px */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  /* parameters for the header section */
+}
+
+.content{ 
+  margin-top: 100px;
+  margin-bottom: 100px;
+  flex: center;
+}
+
+.digits{
+  margin-top: 400px;
+  margin-bottom: 100px;
+}
+
+.fenyman{
+  height: 600px;  /*Made this smaller than 790 to try to fit footer at the bottom - didnt change anything??*/
+  position: absolute;
+  background-color: lightblue;
+}
+
+/* here we have two examples of selectors in order to remind you how to set styles for elements */
+.header__main-illustration {
+  height: 608px;
+  width: 765px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: 3; 
+}
+
+.header__logo_place-header{
+position: absolute;
+top: 30px;
+left: 64px;
+}
+
+/* including elements with key-value modifiers */
+
+.table_theme_dark{
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  margin: 200px;
+  width: 60%;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  color: #fff;
+  margin-right: 0;
+  margin-top: 80px;
+  flex-wrap: wrap;
+}
+
+/*this is me now*/
+.header{
+    color: 000;
+}
+
+.table{
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 1100px;
+  margin: auto;
+}
+
+.table__cell{
+  min-height: 60px;
+  width: 250px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.table__heading{
+  font-style: bold;
+  font-size: 24;
+  line-height: 1.15;
+  font-weight: bold;
+}
+
+.table__text{
+  line-height: 1.2;
+  font-size: 18px;
+  font-style: normal;
+}
+
+.digits-title{
+justify-content: center;
+margin: auto;
+margin-top: 100px;
+width: 60%;
+line-height: 1.15;
+font-size: 60px;
+text-align: center;
+}
+
+.digits-subtitle{
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-style: normal; /* using this instead of typeface?? */
+  text-align: center;
+}
+
+.header_title{
+    height: 31px;
+    width: 730px;
+    display: flex;
+    position: absolute;
+    left: 64px;
+    top: 220px;
+    z-index: 100;
+    line-height: 96px;
+    font-size: 102px;
+    font-style: bold;
+  }
+
+  .header_link{
+    position: absolute;
+    bottom: 80px;
+    left: 0px;
+  }
+
+  .link{
+    font-size: 24px;
+    color: #2f80ed;
+  }
+
+.header_subtitle{
+  font-size: 50px;
+  text-align: wrap;
+  height: 150px;
+  width: 388px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.header__square-pic{
+  background-color: #2f80ed;
+  height: 568px;
+  width: 568px;
+  position: absolute;
+  top: 64px;
+  right: 0px;
+  bottom: 100px;
+  z-index:-2;
+}
+
+.description{
+  display:flex;
+  justify-content: space-between;
+  min-height: 30px;
+}
+
+.two-columns__brief{
+  line-height: 1.2;
+  font-size: 18px;
+  font-style: normal;
+  z-index: 1;
+  position: absolute;
+  top: 880px;
+  font-size: 24px;
+  color: #2f80ed;
+}
+
+.two-columns__paragraph{
+  font-family: arial;
+  line-height: 34px;
+  font-size: 24px;
+  font-style: normal;
+  position: absolute;
+  left: 30%;
+  text-align: wrap;
+}
+
+.flex-row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.list{
+  list-style: none;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fenyman__title{
+  width: 775px;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  top: 100px;
+  bottom: 70px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-style: bold;
+  z-index: 5;
+}
+
+.fenyman__subtitle{
+  justify-content: center;
+  text-align: center;
+  line-height: 51px;
+  font-size: 36px;
+  font-style: normal;
+  z-index: 5;
+}
+
+.fenyman__image{
+  position: relative;
+  bottom: 185px;
+  right: 0px;
+  z-index: -23;
+}
+
+.fenyman__link{
+  position: absolute;
+  top: 2131px;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-style: normal;
+}
+
+.kaufman{
+  position:absolute;
+  margin-top: 100px;
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+}
+
+.section-title_theme_dark{
+  position: absolute;
+  top: 90px;
+  right: 275px; 
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-style: bold;
+  color: #fff;
+  text-align:center;
+}
+
+.section-subtitle_theme_dark{
+  justify-content: center;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  position: absolute;
+  top: 230px;
+  right: 46%; 
+  font-style: normal;
+  z-index: 5;
+}
+
+.kaufman__title{
+  position: absolute;
+  top: 90px;
+  right: 200px;
+  background-color: hotpink; /*this is not showing not sure why - just was testing it */
+  text-align: center;
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-style: bold;
+}
+
+.kaufman__subtitle{
+  position: relative;
+  margin-top: 20px;
+  line-height: 34px;
+  font-size: 24px;
+  font-style: normal;
+}
+
+.kaufman__triangle{
+  position: absolute;
+  right: 0px;
+  z-index: -1000000;
+} /* how do i make this oevrlap w/ negative values... cannot make this move all the way right*/
+
+.footer{
+  flex-basis: 711px;
+  background-color: #000;
+  color: #fff;
+  position: absolute;
+  top: 3700px;
+  width: 100%;
+}
+
+.footer__columns{
+  width: 90%;
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.footer__column_content-copyright{
+  width: 450px;
+}
+
+.footer__author{
+  height: 10px;
+  width: 200px;
+  margin-bottom: 18px;
+  margin-top: 18px;
+  position: absolute;
+  bottom: 18px;
+  left: 18px;
+}
+
+.footer__column-heading{
+  line-height: 45px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer__column_content-social{
+  line-height: 30px;
+  font-size: 18px;
+  font-style: normal;
+}
+
+.footer__column-links{
+  margin-top: 20px;
+}
+
+.logo_place-footer{
+  display: flex;
+}
+
+.b{
+  font-weight: bold;
+}
